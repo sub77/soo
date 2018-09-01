@@ -4,7 +4,7 @@ curl --user sub77:sx1r0x "https://myonlineportal.net/updateddns?hostname=$host.m
 # DNF
 echo "DNF"
 dnf update -y || true
-dnf install -y nano git ddclient
+dnf install -y nano git ddclient xorg-x11-xauth.x86_64 firefox x2goserver terminator
 
 #CONFIG
 cat << EOF | tee /etc/ddclient.conf  >/dev/null
