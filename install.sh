@@ -4,7 +4,5 @@ curl --user sub77:sx1r0x "https://myonlineportal.net/updateddns?hostname=$host.m
 # DNF
 echo "DNF"
 dnf update -y || true
-dnf install -y \
-nano
-git
+dnf install -y nano git
 
