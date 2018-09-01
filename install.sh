@@ -8,6 +8,7 @@ dnf install -y nano git ddclient
 
 #CONFIG
 cat << EOF | tee /etc/ddclient.conf  >/dev/null
+"
 daemon=300
 syslog=yes
 #mail=root
@@ -23,3 +24,5 @@ password=sx1r0x
 $host.myonlineportal.net
 EOF
 
+systemctl enable ddclient
+systemctl start ddclient
