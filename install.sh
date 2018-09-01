@@ -1,5 +1,7 @@
 # DNF
-dnf update -y
+echo "DNF"
+dnf update -y || true
 dnf install -y \
 nano
 git
+
